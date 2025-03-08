@@ -1,4 +1,48 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Anastasiia Lebedenko
+* Created on: March 2025
 * This file contains the CSS for index.html
 */
+#header {
+    background: #e0cdaf;
+    height: auto;
+    padding: 50px 50px
+}
+
+h1 {
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+h3 {
+    font-family: Arial;
+}
+p {
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size:large;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+form {
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
