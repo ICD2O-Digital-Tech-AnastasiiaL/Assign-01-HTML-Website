@@ -5,7 +5,7 @@ h1 {
     display: flex;
     justify-content: center;
 
-    background-color: #e9e9e9;
+    background-color: rgba(100, 62, 103, 1);
 }
 
 .banner {
@@ -55,6 +55,7 @@ div {
 
 h5 {
     text-align: center;
+    color: #442323ff;
 }
 
 .container {
